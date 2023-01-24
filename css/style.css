@@ -1,0 +1,141 @@
+/* fraunces-regular - latin */
+@font-face {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/fraunces-v26-latin-regular.eot');
+    /* IE9 Compat Modes */
+    src: local(''),
+        url('../fonts/fraunces-v26-latin-regular.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/fraunces-v26-latin-regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/fraunces-v26-latin-regular.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/fraunces-v26-latin-regular.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/fraunces-v26-latin-regular.svg#Fraunces') format('svg');
+    /* Legacy iOS */
+}
+
+/* fraunces-700 - latin */
+@font-face {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/fraunces-v26-latin-700.eot');
+    /* IE9 Compat Modes */
+    src: local(''),
+        url('../fonts/fraunces-v26-latin-700.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/fraunces-v26-latin-700.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/fraunces-v26-latin-700.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/fraunces-v26-latin-700.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/fraunces-v26-latin-700.svg#Fraunces') format('svg');
+    /* Legacy iOS */
+}
+
+/* barlow-regular - latin */
+@font-face {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/barlow-v12-latin-regular.eot');
+    /* IE9 Compat Modes */
+    src: local(''),
+        url('../fonts/barlow-v12-latin-regular.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/barlow-v12-latin-regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/barlow-v12-latin-regular.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/barlow-v12-latin-regular.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/barlow-v12-latin-regular.svg#Barlow') format('svg');
+    /* Legacy iOS */
+}
+
+/* barlow-600 - latin */
+@font-face {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/barlow-v12-latin-600.eot');
+    /* IE9 Compat Modes */
+    src: local(''),
+        url('../fonts/barlow-v12-latin-600.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/barlow-v12-latin-600.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/barlow-v12-latin-600.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/barlow-v12-latin-600.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/barlow-v12-latin-600.svg#Barlow') format('svg');
+    /* Legacy iOS */
+}
+
+/* Layout */
+.container {
+    width: 100%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+@media screen and (min-width: 36em) {
+
+    /* 576px */
+    .container {
+        max-width: 58rem;
+    }
+}
+
+@media screen and (min-width: 48em) {
+
+    /* 768px */
+    .container {
+        max-width: 76rem;
+    }
+}
+
+@media screen and (min-width: 62em) {
+
+    /* 992px */
+    .container {
+        max-width: 100rem;
+    }
+}
+
+@media screen and (min-width: 75em) {
+
+    /* 1200px */
+    .container {
+        max-width: 118rem;
+    }
+}
+
+.main-header {
+    position: relative;
+}
+
+.bg-header {
+    position: absolute;
+    z-index: -1;
+}
+
+.main-navigation {
+    padding-top: 2rem;
+    display: flex;
+}
+
+.burger-item {
+    width: 2rem;
+    height: .2rem;
+    background-color: white;
+    display: block;
+}
