@@ -214,7 +214,7 @@
 
 .main-header {
     text-align: center;
-    background-image: url("/img/mae-mu-1APtYqzNajA-unsplash.png");
+    background-image: url("../img/mae-mu-1APtYqzNajA-unsplash.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -422,11 +422,11 @@ a.contact:hover {
 }
 
 .cherry {
-    background-image: url("/img/mae-mu-vbAEHCrvXZ0-unsplash.png");
+    background-image: url("../img/mae-mu-vbAEHCrvXZ0-unsplash.png");
 }
 
 .orange {
-    background-image: url("/img/mae-mu-U1iYwZ8Dx7k-unsplash.png");
+    background-image: url("../img/mae-mu-U1iYwZ8Dx7k-unsplash.png");
 }
 
 .title-inside-img {
