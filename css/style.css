@@ -341,6 +341,10 @@ a.contact:hover {
     text-align: center;
 }
 
+.txt-first-part-img {
+    text-align: center;
+}
+
 .title-main-section {
     font-family: 'Fraunces', sans-serif;
     font-style: normal;
@@ -405,6 +409,8 @@ a.contact:hover {
 .button-general a:hover .red {
     background-color: rgb(254, 119, 102);
 }
+
+
 
 /* second part */
 
