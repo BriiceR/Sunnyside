@@ -341,8 +341,13 @@ a.contact:hover {
     text-align: center;
 }
 
+
 .txt-first-part-img {
     text-align: center;
+}
+
+.first-part img {
+    height: 100%;
 }
 
 .title-main-section {
